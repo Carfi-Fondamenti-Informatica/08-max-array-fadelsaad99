@@ -12,6 +12,5 @@ int main() {
         d[i]=x;
     }
     cout<<max(d,h);
-
     return 0;
 }
