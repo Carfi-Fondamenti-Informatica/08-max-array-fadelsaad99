@@ -1,9 +1,9 @@
 #include "lib.h"
-float maggio(float arr[], int dim) {
+float ilmaggio(float arr[], int m) {
     float x=1;
-    for (int k=0; k<dim; k++){
-        if(arr[k]>x){
-            x=arr[k];
+    for (int t=0; t<m; t++){
+        if(arr[t]>x){
+            x=arr[t];
         }
     }
     return x;
