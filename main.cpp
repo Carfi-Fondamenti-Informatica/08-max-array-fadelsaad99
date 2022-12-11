@@ -3,15 +3,15 @@
 using namespace std;
 
 int main() {
-    int dim;
-    cin>>dim;
-    float arr[dim];
-    float x;
-    for(int i=0; i<dim; i++){
-        cin>>x;
-        arr[i]=x;
+    int m;
+    cin>>m;
+    float arr[m];
+    float p;
+    for(int i=0; i<m; i++){
+        cin>>p;
+        arr[i]=p;
     }
-    cout<<maggio(arr,dim);
+    cout<<ilmaggio(arr,m);
 
     return 0;
 }
