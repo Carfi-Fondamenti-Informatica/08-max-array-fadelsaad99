@@ -3,14 +3,14 @@
 using namespace std;
 
 int main() {
-    int h;
-    cin>>h;
-    float d[h];
+    int dim;
+    cin>>dim;
+    float a[dim];
     float x;
     for(int i=0; i<h; i++){
         cin>>x;
-        d[i]=x;
+        a[dim]=x;
     }
-    cout<<max(d,h);
+    cout<<mass(a,dim);
     return 0;
 }
