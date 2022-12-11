@@ -1,10 +1,10 @@
 #include "lib.h"
-float mass(float a[], int dim) {
-    float c=1;
+float massimo(float a[], int h) {
+    float d=1;
     for (int j=0; j<h; j++){
-        if(a[j]>c){
-            c=a[j];
+        if(a[j]>d){
+            d=a[j];
         }
     }
-    return c;
+    return d;
 }
