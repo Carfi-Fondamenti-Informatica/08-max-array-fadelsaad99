@@ -1,4 +1,4 @@
-#indef ESERCIZI_LIB_H
-#define ESERCIZI_LIB_H
-float max(float d[], int h);
+#ifndef ESERCI8_LIB_H
+#define ESERCI8_LIB_H
+float massimo(float a[], int h);
 #endif
